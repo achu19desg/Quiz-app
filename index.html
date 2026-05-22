@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>quiz app</title>
+
+</head>
+
+<body class="flex bg-gray-950  min-h-screen justify-center items-center p-4">
+    <!-- mainbox -->
+        <div class="bg-gray-900 w-[800px] min-h-[600px] rounded-3xl shadow-2xl p-8">
+          <h3 class="text-white text-3xl font-bold text-center font-serif mb-10">Quiz App</h3>
+          
+          <div class="bg-gray-800 rounded-2xl p-6">
+
+            <h2 id="question" class="text-white text-3xl font-serif font-semibold mb-6">Question</h2>
+            <!-- options -->
+             <div id="answersbtn" class="flex flex-col gap-4">
+                <button class="bg-gray-600 hover:bg-violet-600 text-white text-2xl py-3 rounded-xl transition">option1</button>
+                <button class="bg-gray-600 hover:bg-violet-600 text-white text-2xl py-3 rounded-xl transition">option2</button>
+                <button class="bg-gray-600 hover:bg-violet-600 text-white text-2xl py-3 rounded-xl transition">option3</button>
+                <button class="bg-gray-600 hover:bg-violet-600 text-white text-2xl py-3 rounded-xl transition">option3</button>
+
+             </div>
+
+          </div>
+          <div class="flex justify-end mt-8">
+            <button id="nxtbtn" class="bg-violet-600 hover:bg-violet-500 text-white px-8 py-3 rounded-xl text-lg font-semibold transition ">Next</button>
+          </div>
+        </div>
+    
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
