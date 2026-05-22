@@ -8,13 +8,13 @@ This project displays multiple-choice questions, checks answers instantly, highl
 
 ## 🚀 Live Demo
 
-🔗 https://your-live-demo-link.netlify.app
+🔗  https://achu19desg.github.io/Quiz-app/
 
 ---
 
 ## 📸 Screenshot
 
-![Quiz App Screenshot](images/ss.png)
+![Quiz App Screenshot](ss.png)
 
 ---
 
